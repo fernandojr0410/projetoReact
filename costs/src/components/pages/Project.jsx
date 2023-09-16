@@ -81,7 +81,7 @@ function Project() {
 
     project.cost = newCost;
 
-    fetch(`http:localhost:5000/projects/${project.id}`, {
+    fetch(`http://localhost:5000/projects/${project.id}`, {
       method: "PATCH",
       headers: {
         "Content-type": "application/json",
